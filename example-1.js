@@ -13,4 +13,5 @@ console.log(answer)
 // Does it look right? 
 // What went wrong?
 
-
+// What went wrong is that .toFixed() returns a string, not a number. 
+// Since the function was trying to multiply a string, it returned an unexpected value.
